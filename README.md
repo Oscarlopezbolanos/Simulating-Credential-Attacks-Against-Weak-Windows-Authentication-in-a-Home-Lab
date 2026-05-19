@@ -53,14 +53,15 @@ admin.local      Admin123!    Privileged account
 backupsvc        Backup2025    Service account
 
 Security questions for all users:
-
-## Plain text
-
+Plain text
 sysco
-Intentional Misconfigurations
-The Windows system was intentionally configured with insecure settings to simulate real-world weaknesses:
-Enabled:
-SMB File Sharing
+
+## Intentional Misconfigurations
+
+The Windows system was intentionally 
+
+configured with insecure settings to simulate real-world weaknesses:
+Enabled: SMB File Sharing
 Public share
 Finance share
 Remote Desktop Protocol (RDP)
