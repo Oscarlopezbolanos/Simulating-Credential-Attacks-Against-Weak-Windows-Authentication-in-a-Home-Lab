@@ -1,6 +1,7 @@
 # Simulating-Credential-Attacks-Against-Weak-Windows-Authentication-in-a-Home-Lab
 
-Project Overview
+##Project Overview
+--
 This project simulates common credential attacks against a vulnerable Windows environment within a controlled home lab. The purpose was to understand how attackers enumerate systems, discover weak authentication practices, gain access through password attacks, and how defenders can detect and mitigate those activities using Wazuh SIEM and network hardening techniques.
 
 The project was initially deployed on a flat network to intentionally increase exposure between systems and demonstrate the risks of poor segmentation. Later phases introduced security controls including stronger authentication, account lockout policies, and pfSense-based network segmentation.
