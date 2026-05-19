@@ -59,20 +59,10 @@ sysco
 ## Intentional Misconfigurations
 
 The Windows system was intentionally 
+configured with insecure settings to simulate real-world weaknesses: 
 
-configured with insecure settings to simulate real-world weaknesses:
-Enabled: SMB File Sharing
-Public share
-Finance share
-Remote Desktop Protocol (RDP)
-Sample files added:
-Plain text
-payroll.xlsx
-passwords.txt
-clients.docx
-Security controls intentionally weakened:
-Weak passwords
-No account lockout policy
-Relaxed firewall configuration
-SMB enabled
-Note: These configurations were used only within the isolated lab environment.
+Enabled:
+-SMB File Sharing
+-Public share
+-Finance share
+-Remote Desktop Protocol (RDP)
